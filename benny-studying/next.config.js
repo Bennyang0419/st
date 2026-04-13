@@ -1,14 +1,6 @@
-import type { NextConfig } from 'next'
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* config options here */
+};
 
-const nextConfig: NextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ['pdf-parse', 'mammoth'],
-  },
-  images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: '*.supabase.co' },
-    ],
-  },
-}
-
-export default nextConfig
+module.exports = nextConfig;
