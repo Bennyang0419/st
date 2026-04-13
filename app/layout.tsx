@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
 import { Toaster } from 'sonner'
 import './globals.css'
 
@@ -19,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-TW" className="dark" suppressHydrationWarning>
-      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}>
+      <body className="antialiased"
         {children}
         <Toaster
           position="bottom-right"
