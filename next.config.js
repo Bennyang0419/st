@@ -2,7 +2,7 @@ const removeImports = require('next-remove-imports')();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 這是為了讓 Markdown 編輯器能正常運作的特殊設定
+  // 讓 Markdown 編輯器可以順利被編譯
 };
 
 module.exports = removeImports(nextConfig);
