@@ -28,7 +28,8 @@
     "pdf-parse": "^1.1.1",
     "mammoth": "^1.8.0",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.4"
+    "tailwind-merge": "^2.5.4",
+    "next-remove-imports": "^1.0.12"
   },
   "devDependencies": {
     "@types/node": "^20",
