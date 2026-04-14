@@ -15,11 +15,10 @@
     "ai": "^3.4.7",
     "next": "14.2.15",
     "openai": "^4.67.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
     "remark-gfm": "^4.0.0",
-    "@uiw/react-md-editor": "^4.0.4",
     "rehype-highlight": "^7.0.0",
     "lucide-react": "^0.454.0",
     "framer-motion": "^11.11.1",
@@ -28,8 +27,7 @@
     "pdf-parse": "^1.1.1",
     "mammoth": "^1.8.0",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.4",
-    "next-remove-imports": "^1.0.12"
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -38,7 +36,8 @@
     "@types/pdf-parse": "^1.1.4",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
-    "postcss": "^8",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
